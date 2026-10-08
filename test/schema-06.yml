@@ -315,6 +315,7 @@ definitions:
       - Mediatek Helio G85
       - Mediatek Helio G95
       - Mediatek Helio G99
+      - Mediatek MT8188J
       - NVIDIA Tegra 4 (T114)
       - NVIDIA Tegra K1 (T124)
       - NVIDIA Tegra X1 (T210)
@@ -1002,6 +1003,7 @@ properties:
     "$id": "/properties/vendor"
     enum:
       - 10.or
+      - Amazon
       - ARK
       - Askey
       - ASUS
@@ -1054,6 +1056,7 @@ properties:
     "$id": "/properties/vendor_short"
     enum:
       - 10or
+      - amazon
       - amlogic
       - ark
       - askey
